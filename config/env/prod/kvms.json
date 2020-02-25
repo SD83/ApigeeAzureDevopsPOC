@@ -1,0 +1,12 @@
+[
+	{
+		"encrypted":true,
+		"entry":[
+			{
+				"name":"AzureDevopsPOC-apikey",
+				"value":"%AzureDevopsPOC-apikey%"
+			}			
+		],
+		"name":"backendcreds"
+	}
+]

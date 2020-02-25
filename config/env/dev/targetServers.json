@@ -1,0 +1,15 @@
+[
+	{
+        "host": "hhsapi-dev-east-site.azurewebsites.net",
+        "isEnabled": true,
+        "name": "handheldscannerbackend",
+        "port": 443,
+        "sSLInfo": {
+            "ciphers": [],
+            "clientAuthEnabled": "false",
+            "enabled": "true",
+            "ignoreValidationErrors": true,
+            "protocols": []
+        }
+    }
+]

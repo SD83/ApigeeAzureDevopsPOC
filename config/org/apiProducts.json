@@ -1,0 +1,56 @@
+[
+    {
+        "name": "AzureDevopsPOC-nonprod",
+        "displayName": "AzureDevopsPOC-nonprod",
+        "description": "An internal non prod product to generate dev and qa api keys",
+        "apiResources": [
+            "/**",
+            "/"
+        ],
+        "approvalType": "auto",
+        "attributes": [
+        	{
+                "name": "spike_limit",
+                "value": "100pm"
+            }
+        ],
+        "environments": [
+            "dev",
+            "test",
+            "sandbox"            
+        ],
+        "proxies": [
+            "AzureDevopsPOC"
+        ],
+        "quota": "200",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "minute",
+        "scopes": []
+    },
+    {
+        "name": "AzureDevopsPOC-prod",
+        "displayName": "AzureDevopsPOC-prod",
+        "description": "An internal prod product to generate production api key",
+        "apiResources": [
+            "/**",
+            "/"
+        ],
+        "approvalType": "manual",
+        "attributes": [
+        	{
+                "name": "spike_limit",
+                "value": "100pm"
+            }
+        ],
+        "environments": [
+            "prod"            
+        ],
+        "proxies": [
+            "AzureDevopsPOC"
+        ],
+        "quota": "200",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "minute",
+        "scopes": []
+    }
+]

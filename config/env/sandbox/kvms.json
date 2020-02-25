@@ -1,0 +1,17 @@
+[
+	{
+		"encrypted":true,
+		"entry":[
+			{
+				"name":"AzureDevopsPOC-user",
+				"value":"%AzureDevopsPOC-user%"
+			},
+			{
+				"name":"AzureDevopsPOC-password",
+				"value":"%AzureDevopsPOC-password%"
+			}
+			
+		],
+		"name":"backendcreds"
+	}
+]

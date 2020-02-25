@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="AzureDevopsPOC">
+    <Basepaths>/azuredevopspoc</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1582660825613</CreatedAt>
+    <CreatedBy>soumik_das@carmax.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>AzureDevopsPOC</DisplayName>
+    <LastModifiedAt>1582660825613</LastModifiedAt>
+    <LastModifiedBy>soumik_das@carmax.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:1e72bba20b3641cdb76ddccb5ed9daf35f79c2584a780aca7f0144d4028f7319c0f944c1e9862b38f6da036edab1100ebbe203ca41b7919702889c098fc9fbdf</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
