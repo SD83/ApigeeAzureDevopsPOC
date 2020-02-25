@@ -6,7 +6,7 @@ resources:
   repositories:
   - repository: apigateway-organization-config # The name used to reference this repository in the checkout step
     type: github
-    endpoint: MyGitHubServiceConnection
+    endpoint: SD83
     
 trigger:
 - master
