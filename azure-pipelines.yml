@@ -26,7 +26,7 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'ApigeeAzureDevopsPOC/pom.xml'
-    options: '-P $(environment)'
+    options: '-P $(environment) -Denvironment=$(environment)'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
